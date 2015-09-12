@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "type": "Ресурс",
+      "id": "1",
+      "parent": null,
+      "name": "Поле"
+    },
+    {
+      "id": "8",
+      "parent": null,
+      "type": "Производственный процесс",
+      "name": "Производство муки"
+    },
+    {
+      "id": "2",
+      "parent": "pm",
+      "type": "Транспорт",
+      "name": "Трактор"
+    },
+    {
+      "id": "3",
+      "parent": "pm",
+      "type": "Исполнитель",
+      "name": "Тракторист"
+    },
+    {
+      "id": "4",
+      "parent": "pm",
+      "type": "Энергоноситель",
+      "name": "Дизель"
+    },
+    {
+      "id": "5",
+      "parent": "pm",
+      "type": "Строение",
+      "name": "Мельница"
+    },
+    {
+      "id": "6",
+      "parent": "pm",
+      "type": "Исполнитель",
+      "name": "Мельник"
+    },
+    {
+      "type": "Ресурс",
+      "id": "7",
+      "parent": null,
+      "name": "Мука"
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 3,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "value": 1
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "value": 1
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "value": 1
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "value": 1
+    }
+  ]
+}
